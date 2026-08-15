@@ -1,0 +1,15 @@
+{
+	"name": "worksapce-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7e0e41d1-a17e-435f-9a87-7e39493b1e74",
+		"tenantId": "a87fdae2-7b29-4c05-8334-6369f8e48b97"
+	}
+}
