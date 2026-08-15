@@ -1,0 +1,75 @@
+{
+	"name": "dataset_onprem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"folderPath": "Dataset1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "student_id",
+				"type": "String"
+			},
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": "course",
+				"type": "String"
+			},
+			{
+				"name": "study_hours",
+				"type": "String"
+			},
+			{
+				"name": "class_attendance",
+				"type": "String"
+			},
+			{
+				"name": "internet_access",
+				"type": "String"
+			},
+			{
+				"name": "sleep_hours",
+				"type": "String"
+			},
+			{
+				"name": "sleep_quality",
+				"type": "String"
+			},
+			{
+				"name": "study_method",
+				"type": "String"
+			},
+			{
+				"name": "facility_rating",
+				"type": "String"
+			},
+			{
+				"name": "exam_difficulty",
+				"type": "String"
+			},
+			{
+				"name": "exam_score",
+				"type": "String"
+			}
+		]
+	}
+}
