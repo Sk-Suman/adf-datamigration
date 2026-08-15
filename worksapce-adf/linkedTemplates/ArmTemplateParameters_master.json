@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "worksapce-adf"
+		},
+		"ls_FileServer1_password": {
+			"value": ""
+		},
+		"ls_onprem_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"ls_onprem_sql_FileServer1_password": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://sqlcredintial9.vault.azure.net/"
+		},
+		"ls_FileServer1_properties_typeProperties_host": {
+			"value": "E://"
+		},
+		"ls_FileServer1_properties_typeProperties_userId": {
+			"value": "DESKTOP-8J30P96\\DELL"
+		},
+		"ls_onprem_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://sumanstgadls.dfs.core.windows.net/"
+		},
+		"ls_onprem_AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sumanazureserver.database.windows.net"
+		},
+		"ls_onprem_AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sumandb"
+		},
+		"ls_onprem_AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "user"
+		},
+		"ls_onprem_sql_FileServer1_properties_typeProperties_host": {
+			"value": "E://"
+		},
+		"ls_onprem_sql_FileServer1_properties_typeProperties_userId": {
+			"value": "DESKTOP-8J30P96\\DELL"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
